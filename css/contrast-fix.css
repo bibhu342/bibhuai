@@ -949,3 +949,22 @@ html body:not([data-theme="dark"]) #contact a[href*="tel:+917022403111"] {
 }
 
 html[data-theme=dark] .timeline-card p a,html[data-theme=dark] .projects-intro a,html[data-theme=dark] .service-desc a{color:#60a5fa!important}
+
+.projects-grid.enhanced{display:grid}
+.timeline-marker{left:-37px}
+@media (max-width:700px){.timeline::before,.timeline-marker{display:none}}
+
+/* ===== Contrast pass (Oct 2026): WCAG AA text contrast in both themes ===== */
+html[data-theme=dark] body#page main#main-content section h2,html[data-theme=dark] body#page main#main-content section h3,html[data-theme=dark] body#page main#main-content section h4,html[data-theme=dark] body#page main#main-content section h5,html[data-theme=dark] body#page main#main-content section strong{color:#f1f5f9!important}
+html[data-theme=dark] body#page main#main-content section p,html[data-theme=dark] body#page main#main-content section li{color:#d4d4d4!important}
+html[data-theme=dark] body#page main#main-content .stat-value,html[data-theme=dark] body#page main#main-content .stat-label,html[data-theme=dark] body#page main#main-content .exp-title,html[data-theme=dark] body#page main#main-content .exp-company,html[data-theme=dark] body#page main#main-content .exp-meta,html[data-theme=dark] body#page .exp-meta em,html[data-theme=dark] body#page main#main-content .achievement-metric,html[data-theme=dark] body#page main#main-content .edu-subtitle,html[data-theme=dark] body#page main#main-content .edu-skills-label,html[data-theme=dark] body#page main#main-content .contact-card-value,html[data-theme=dark] body#page main#main-content #contact a,html[data-theme=dark] body#page main#main-content section p a,html[data-theme=dark] body#page main#main-content .proven-impact strong,html[data-theme=dark] body#page main#main-content .filter-btn,html[data-theme=dark] body#page footer#footer .footer-brand,html[data-theme=dark] body#page footer#footer a,html[data-theme=dark] body#page footer#footer .footer-location,html[data-theme=dark] body#page footer#footer h3{color:#60a5fa!important}
+html[data-theme=dark] body#page footer#footer,html[data-theme=dark] body#page footer#footer p,html[data-theme=dark] body#page footer#footer div,html[data-theme=dark] body#page footer#footer span{color:#cbd5e1}
+html:not([data-theme=dark]) body#page main#main-content #skills strong,html:not([data-theme=dark]) body#page main#main-content .filter-btn,html:not([data-theme=dark]) body#page main#main-content .edu-subtitle,html:not([data-theme=dark]) body#page main#main-content #contact a,html:not([data-theme=dark]) body#page footer#footer .footer-brand,html:not([data-theme=dark]) body#page footer#footer h3,html:not([data-theme=dark]) body#page footer#footer a,html:not([data-theme=dark]) body#page footer#footer .footer-location{color:#0050a8!important}
+body#page .filter-btn.active,html[data-theme=dark] body#page .filter-btn.active,html:not([data-theme=dark]) body#page .filter-btn.active{background:#1d4ed8!important;border-color:#1d4ed8!important;color:#fff!important}
+body#page .category-tag,html[data-theme=dark] body#page .category-tag,html:not([data-theme=dark]) body#page .category-tag{background:#1e3a8a!important;color:#fff!important}
+body#page .btn-card.primary,html[data-theme=dark] body#page .btn-card.primary{background:#1d4ed8!important;color:#fff!important}
+body#page .btn-submit,html[data-theme=dark] body#page .btn-submit{background:#1d4ed8!important}
+body#page .btn-submit .btn-text,html[data-theme=dark] body#page .btn-submit .btn-text,html:not([data-theme=dark]) body#page .btn-submit .btn-text{color:#fff!important}
+html[data-theme=dark] body#page main#main-content .proven-impact{background:#1e293b!important;border-color:#334155!important}
+html[data-theme=dark] body#page footer#footer div,html[data-theme=dark] body#page footer#footer span,html[data-theme=dark] body#page footer#footer p{color:#cbd5e1!important}
+body#page main#main-content .filter-btn.active,html[data-theme=dark] body#page main#main-content .filter-btn.active,html:not([data-theme=dark]) body#page main#main-content .filter-btn.active{color:#fff!important}

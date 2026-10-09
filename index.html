@@ -157,7 +157,7 @@
     href="styles.min.css"
   /><link rel="stylesheet" href="css/contrast-fix.min.css" />
   </head>
-  <body>
+  <body id="page">
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <nav class="site-nav" role="navigation" aria-label="Main navigation">
     <div class="nav-container">
@@ -415,6 +415,25 @@
           <div class="timeline-marker" aria-hidden="true"></div>
           <div class="timeline-card">
             <div class="exp-header">
+              <div class="exp-title">Freelance AI Evaluator</div>
+              <div class="exp-company">Upwork &middot; Remote</div>
+              <div class="exp-meta">Oct 2026 – Present</div>
+            </div>
+            <p>
+              Generative AI video quality evaluation for a client on Upwork (contract in progress), alongside AI evaluation and annotation
+              work across image, video, audio and text.
+              <a href="https://www.upwork.com/freelancers/~01ca3f8fff49f359ca" target="_blank" rel="noopener">View my Upwork profile</a>.
+            </p>
+            <div class="tech-tags">
+              <span class="tech-badge">AI Evaluation</span> <span class="tech-badge">AI-Generated Video</span>
+              <span class="tech-badge">Video Annotation</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal-on-scroll reveal-right">
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <div class="timeline-card">
+            <div class="exp-header">
               <div class="exp-title">Analyst – AI / LLM</div>
               <div class="exp-company">Innodata Inc. &middot; Remote</div>
               <div class="exp-meta">Dec 2025 – Sep 2026 &middot; <em>Fixed-term contract, concluded September 2026</em></div>
@@ -442,7 +461,7 @@
             </div>
           </div>
         </div>
-        <div class="timeline-item reveal-on-scroll reveal-right">
+        <div class="timeline-item reveal-on-scroll reveal-left">
           <div class="timeline-marker" aria-hidden="true"></div>
           <div class="timeline-card">
             <div class="exp-header">
@@ -474,7 +493,7 @@
             </div>
           </div>
         </div>
-        <div class="timeline-item reveal-on-scroll reveal-left">
+        <div class="timeline-item reveal-on-scroll reveal-right">
           <div class="timeline-marker" aria-hidden="true"></div>
           <div class="timeline-card">
             <div class="exp-header">
@@ -501,8 +520,8 @@
           <div class="skill-category">
             <h4>Generated Media Evaluation</h4>
             <p>
-              Image and video quality comparison • Review of AI edits (inpainting, object removal, region and multi-turn edits) • Artifact
-              and continuity detection
+              Image and video quality comparison • Review of AI edits (inpainting, object removal, region and multi-turn edits, style
+              transfer) • Artifact detection (warped hands and faces, flicker, object drift, physics and continuity errors)
             </p>
           </div>
           <div class="skill-category">
@@ -519,9 +538,13 @@
           <div class="skill-category">
             <h4>Vision &amp; Video Annotation</h4>
             <p>
-              Bounding boxes • Segmentation masks • Referring expressions • Grounding verification (incl. UI elements) • Temporal ordering
-              • Action segmentation • Event alignment
+              Bounding boxes • Segmentation masks • Keypoints • Referring expressions • Grounding verification (incl. UI elements) •
+              Temporal ordering • Action segmentation • Shot correction • Counting • Event alignment
             </p>
+          </div>
+          <div class="skill-category">
+            <h4>Text &amp; Reasoning</h4>
+            <p>Fact verification • Reasoning-step checks • Question-answer pairs grounded in video • Reviewing other annotators' work</p>
           </div>
           <div class="skill-category">
             <h4>Quality &amp; Operations</h4>
@@ -725,7 +748,11 @@
         </article>
       </div>
       <p class="projects-intro">
-        <strong>Client creative work:</strong> landing pages, Shopify designs and AI product visuals are on the
+        <strong>Evaluation samples:</strong> "AI Image Side-by-Side Ranking" and "AI Video Evaluation with Rubric" are in my
+        <a href="https://www.upwork.com/freelancers/~01ca3f8fff49f359ca" target="_blank" rel="noopener">Upwork portfolio</a>.<br />
+        <strong>Creative work:</strong> Kestrel Freight (landing page with a live quote calculator), Halden Solar (landing page with an
+        inline savings estimate), LumaSkin (full campaign from one locked reference) and Ferro &amp; Glow (38 product images from 5 supplier
+        photos) are on the
         <a href="https://bibhu342.github.io/vividflow-studio/" target="_blank" rel="noopener">VividFlow Studio portfolio</a>.<br />
         <strong>ML learning projects:</strong> customer segmentation and loan-approval classification with scikit-learn. See all code on
         <a href="https://github.com/bibhu342" target="_blank" rel="noopener">GitHub</a>.
@@ -853,7 +880,8 @@
       <div class="services-cta">
         <p>
           <strong>Open to:</strong> Generative AI analyst • LLM and multimodal evaluation • AI quality • AI data quality • GenAI operations
-          (remote: US, UK, EU or India; full-time or contract; available immediately)
+          (remote: US, UK, EU or India; full-time, contract or contract-to-hire; available immediately).
+          Freelance projects: <a href="https://www.upwork.com/freelancers/~01ca3f8fff49f359ca" target="_blank" rel="noopener">hire me on Upwork</a>.
         </p>
       </div>
     </section>
@@ -868,8 +896,13 @@
               <span class="edu-icon" aria-hidden="true">🥋</span>
               <div class="edu-content">
                 <h3 class="edu-title">Six Sigma Black Belt</h3>
-                <p class="edu-subtitle">Kennesaw State University • Certificate</p>
-                <p class="edu-meta">Black Belt: Apr 2026 · Green Belt: Jan 2026</p>
+                <p class="edu-subtitle">Kennesaw State University (via Coursera) • Specialization</p>
+                <p class="edu-meta">
+                  Black Belt: Apr 2026 · Green Belt: Jan 2026 ·
+                  <a href="https://www.coursera.org/account/accomplishments/specialization/PGJJAESICKSA" target="_blank" rel="noopener"
+                    >View credential</a
+                  >
+                </p>
               </div>
             </div>
             <div class="edu-skills">
@@ -1081,7 +1114,7 @@
       </div>
     </section>
   </main>
-  <footer class="site-footer" role="contentinfo">
+  <footer id="footer" class="site-footer" role="contentinfo">
     <div class="footer-content">
       <div class="footer-section">
         <div class="footer-brand">Bibhudendu Behera</div>

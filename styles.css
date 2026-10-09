@@ -372,7 +372,7 @@ button,
 
 /* Make secondary button match primary button in hero section (light mode) */
 /* Only apply when NOT in dark mode - use same gradient as primary */
-body:not([data-theme="dark"]) .hero .btn-secondary,
+html:not([data-theme="dark"]) body .hero .btn-secondary,
 :not([data-theme="dark"]) .hero .btn-secondary {
   background: linear-gradient(90deg, #0077d9, #005bb5) !important; /* Same gradient as primary button */
   color: #ffffff !important;
@@ -380,7 +380,7 @@ body:not([data-theme="dark"]) .hero .btn-secondary,
   box-shadow: 0 6px 12px rgba(2,6,23,0.06) !important; /* Same shadow as primary */
 }
 
-body:not([data-theme="dark"]) .hero .btn-secondary:hover,
+html:not([data-theme="dark"]) body .hero .btn-secondary:hover,
 :not([data-theme="dark"]) .hero .btn-secondary:hover {
   background: linear-gradient(90deg, #005bb5, #004a94) !important; /* Darker gradient on hover */
   transform: translateY(-2px);
@@ -388,14 +388,14 @@ body:not([data-theme="dark"]) .hero .btn-secondary:hover,
 }
 
 /* Ensure primary button also uses the same gradient in hero (light mode) */
-body:not([data-theme="dark"]) .hero .btn-primary {
+html:not([data-theme="dark"]) body .hero .btn-primary {
   background: linear-gradient(90deg, #0077d9, #005bb5) !important; /* Same gradient */
   color: #ffffff !important;
   border: none !important;
   box-shadow: 0 6px 12px rgba(2,6,23,0.06) !important;
 }
 
-body:not([data-theme="dark"]) .hero .btn-primary:hover {
+html:not([data-theme="dark"]) body .hero .btn-primary:hover {
   background: linear-gradient(90deg, #005bb5, #004a94) !important; /* Same hover */
   transform: translateY(-2px);
   box-shadow: 0 6px 12px rgba(2,6,23,0.12) !important;
@@ -3042,7 +3042,7 @@ details.exp-details summary::-webkit-details-marker {
 
 /* Footer - Light Mode */
 html:not([data-theme="dark"]) .site-footer,
-body:not([data-theme="dark"]) .site-footer {
+html:not([data-theme="dark"]) body .site-footer {
   background: var(--bg-secondary) !important;
   color: var(--text-primary) !important;
   border-top-color: var(--primary-color) !important;
@@ -3105,7 +3105,7 @@ body:not([data-theme="dark"]) .site-footer {
 
 /* Light mode footer headings */
 html:not([data-theme="dark"]) .footer-section h3,
-body:not([data-theme="dark"]) .footer-section h3 {
+html:not([data-theme="dark"]) body .footer-section h3 {
   color: #0f172a !important;
 }
 
@@ -3118,7 +3118,7 @@ body:not([data-theme="dark"]) .footer-section h3 {
 
 /* Light mode footer brand */
 html:not([data-theme="dark"]) .footer-brand,
-body:not([data-theme="dark"]) .footer-brand {
+html:not([data-theme="dark"]) body .footer-brand {
   color: #007bff !important;
 }
 
@@ -3130,7 +3130,7 @@ body:not([data-theme="dark"]) .footer-brand {
 
 /* Light mode footer tagline */
 html:not([data-theme="dark"]) .footer-tagline,
-body:not([data-theme="dark"]) .footer-tagline {
+html:not([data-theme="dark"]) body .footer-tagline {
   color: #475569 !important;
 }
 
@@ -3143,7 +3143,7 @@ body:not([data-theme="dark"]) .footer-tagline {
 
 /* Light mode footer bio */
 html:not([data-theme="dark"]) .footer-bio,
-body:not([data-theme="dark"]) .footer-bio {
+html:not([data-theme="dark"]) body .footer-bio {
   color: #475569 !important;
 }
 
@@ -3154,7 +3154,7 @@ body:not([data-theme="dark"]) .footer-bio {
 
 /* Light mode footer copyright */
 html:not([data-theme="dark"]) .footer-copyright,
-body:not([data-theme="dark"]) .footer-copyright {
+html:not([data-theme="dark"]) body .footer-copyright {
   color: #475569 !important; /* Improved contrast for readability */
 }
 
@@ -3177,7 +3177,7 @@ body:not([data-theme="dark"]) .footer-copyright {
 
 /* Light mode footer links */
 html:not([data-theme="dark"]) .footer-links a,
-body:not([data-theme="dark"]) .footer-links a {
+html:not([data-theme="dark"]) body .footer-links a {
   color: #475569 !important;
 }
 
@@ -3188,7 +3188,7 @@ body:not([data-theme="dark"]) .footer-links a {
 
 /* Light mode footer links hover */
 html:not([data-theme="dark"]) .footer-links a:hover,
-body:not([data-theme="dark"]) .footer-links a:hover {
+html:not([data-theme="dark"]) body .footer-links a:hover {
   color: #007bff !important;
 }
 
@@ -3214,7 +3214,7 @@ body:not([data-theme="dark"]) .footer-links a:hover {
 
 /* Light mode social icons */
 html:not([data-theme="dark"]) .social-icon-footer,
-body:not([data-theme="dark"]) .social-icon-footer {
+html:not([data-theme="dark"]) body .social-icon-footer {
   background: #e2e8f0 !important;
   color: #0f172a !important;
 }
@@ -3226,7 +3226,7 @@ body:not([data-theme="dark"]) .social-icon-footer {
 
 /* Light mode social icons hover */
 html:not([data-theme="dark"]) .social-icon-footer:hover,
-body:not([data-theme="dark"]) .social-icon-footer:hover {
+html:not([data-theme="dark"]) body .social-icon-footer:hover {
   background: #007bff !important;
   color: #ffffff !important;
 }
@@ -3238,7 +3238,7 @@ body:not([data-theme="dark"]) .social-icon-footer:hover {
 
 /* Light mode footer location */
 html:not([data-theme="dark"]) .footer-location,
-body:not([data-theme="dark"]) .footer-location {
+html:not([data-theme="dark"]) body .footer-location {
   color: #475569 !important; /* Improved contrast for readability */
 }
 
@@ -3249,7 +3249,7 @@ body:not([data-theme="dark"]) .footer-location {
 
 /* Light mode footer bottom */
 html:not([data-theme="dark"]) .footer-bottom,
-body:not([data-theme="dark"]) .footer-bottom {
+html:not([data-theme="dark"]) body .footer-bottom {
   background: #f1f5f9 !important;
   border-top-color: #e2e8f0 !important;
 }
@@ -3267,12 +3267,12 @@ body:not([data-theme="dark"]) .footer-bottom {
 
 /* Light mode footer bottom content */
 html:not([data-theme="dark"]) .footer-bottom-content,
-body:not([data-theme="dark"]) .footer-bottom-content {
+html:not([data-theme="dark"]) body .footer-bottom-content {
   color: #475569 !important; /* Improved contrast for readability */
 }
 
 html:not([data-theme="dark"]) .footer-bottom-content a,
-body:not([data-theme="dark"]) .footer-bottom-content a {
+html:not([data-theme="dark"]) body .footer-bottom-content a {
   color: #007bff !important;
 }
 
@@ -4049,73 +4049,73 @@ a:hover::after {
 }
 
 /* Explicit light mode text colors for readability */
-body:not([data-theme="dark"]) {
+html:not([data-theme="dark"]) body {
   color: #333333 !important; /* Dark gray on white */
   background-color: #ffffff !important; /* White background */
 }
 
-body:not([data-theme="dark"]) .card {
+html:not([data-theme="dark"]) body .card {
   background-color: #ffffff !important; /* White card background */
   color: #333333 !important; /* Dark gray text */
 }
 
-body:not([data-theme="dark"]) h1,
-body:not([data-theme="dark"]) h2,
-body:not([data-theme="dark"]) h3,
-body:not([data-theme="dark"]) h4,
-body:not([data-theme="dark"]) h5,
-body:not([data-theme="dark"]) h6 {
+html:not([data-theme="dark"]) body h1,
+html:not([data-theme="dark"]) body h2,
+html:not([data-theme="dark"]) body h3,
+html:not([data-theme="dark"]) body h4,
+html:not([data-theme="dark"]) body h5,
+html:not([data-theme="dark"]) body h6 {
   color: #0f172a !important; /* Very dark for headings */
 }
 
-body:not([data-theme="dark"]) p {
+html:not([data-theme="dark"]) body p {
   color: #666666 !important; /* Medium gray for paragraphs */
 }
 
-body:not([data-theme="dark"]) .card p,
-body:not([data-theme="dark"]) .card li,
-body:not([data-theme="dark"]) .card span,
-body:not([data-theme="dark"]) .card div {
+html:not([data-theme="dark"]) body .card p,
+html:not([data-theme="dark"]) body .card li,
+html:not([data-theme="dark"]) body .card span,
+html:not([data-theme="dark"]) body .card div {
   color: #333333 !important; /* Dark text in cards */
 }
 
 /* Ensure all text elements are readable in light mode */
 /* Light mode - Hero section text */
-body:not([data-theme="dark"]) .hero-content h1,
-body:not([data-theme="dark"]) .hero-title {
+html:not([data-theme="dark"]) body .hero-content h1,
+html:not([data-theme="dark"]) body .hero-title {
   color: #0f172a !important; /* Very dark for headings */
 }
 
-body:not([data-theme="dark"]) .hero-subtitle {
+html:not([data-theme="dark"]) body .hero-subtitle {
   color: #374151 !important; /* Dark gray */
 }
 
-body:not([data-theme="dark"]) .hero-desc {
+html:not([data-theme="dark"]) body .hero-desc {
   color: #475569 !important; /* Medium gray */
 }
 
-body:not([data-theme="dark"]) .social-link {
+html:not([data-theme="dark"]) body .social-link {
   color: #0f172a !important; /* Dark text for social links */
 }
 
-body:not([data-theme="dark"]) .social-link:hover,
-body:not([data-theme="dark"]) .social-link:focus {
+html:not([data-theme="dark"]) body .social-link:hover,
+html:not([data-theme="dark"]) body .social-link:focus {
   color: #0056b3 !important; /* Darker blue on hover */
 }
 
 /* Light mode - Other sections */
-body:not([data-theme="dark"]) .about-text p,
-body:not([data-theme="dark"]) .project-desc,
-body:not([data-theme="dark"]) .service-desc,
-body:not([data-theme="dark"]) .timeline-card,
-body:not([data-theme="dark"]) .timeline-card *,
-body:not([data-theme="dark"]) .stat-label,
-body:not([data-theme="dark"]) .stat-value,
-body:not([data-theme="dark"]) .achievement-desc {
+html:not([data-theme="dark"]) body .about-text p,
+html:not([data-theme="dark"]) body .project-desc,
+html:not([data-theme="dark"]) body .service-desc,
+html:not([data-theme="dark"]) body .timeline-card,
+html:not([data-theme="dark"]) body .timeline-card *,
+html:not([data-theme="dark"]) body .stat-label,
+html:not([data-theme="dark"]) body .stat-value,
+html:not([data-theme="dark"]) body .achievement-desc {
   color: #333333 !important;
 }
 
-body:not([data-theme="dark"]) .about-text p {
+html:not([data-theme="dark"]) body .about-text p {
   color: #475569 !important; /* Slightly lighter for about text */
 }
 
@@ -4583,84 +4583,84 @@ body.light .hero .hero-overlay { background: rgba(255,255,255,0); }
    ============================================ */
 
 /* Section Headings - Make black (light mode) */
-body:not([data-theme="dark"]) #about h2,
-body:not([data-theme="dark"]) #experience h2,
-body:not([data-theme="dark"]) #projects h2,
-body:not([data-theme="dark"]) #skills h2,
-body:not([data-theme="dark"]) #achievements h2,
-body:not([data-theme="dark"]) #services h2,
-body:not([data-theme="dark"]) #education h2,
-body:not([data-theme="dark"]) #contact h2,
-body:not([data-theme="dark"]) #about-heading,
-body:not([data-theme="dark"]) #experience-heading,
-body:not([data-theme="dark"]) #achievements-heading,
-body:not([data-theme="dark"]) #services-heading,
-body:not([data-theme="dark"]) #education-heading,
-body:not([data-theme="dark"]) #contact-heading,
-body:not([data-theme="dark"]) #skills-title {
+html:not([data-theme="dark"]) body #about h2,
+html:not([data-theme="dark"]) body #experience h2,
+html:not([data-theme="dark"]) body #projects h2,
+html:not([data-theme="dark"]) body #skills h2,
+html:not([data-theme="dark"]) body #achievements h2,
+html:not([data-theme="dark"]) body #services h2,
+html:not([data-theme="dark"]) body #education h2,
+html:not([data-theme="dark"]) body #contact h2,
+html:not([data-theme="dark"]) body #about-heading,
+html:not([data-theme="dark"]) body #experience-heading,
+html:not([data-theme="dark"]) body #achievements-heading,
+html:not([data-theme="dark"]) body #services-heading,
+html:not([data-theme="dark"]) body #education-heading,
+html:not([data-theme="dark"]) body #contact-heading,
+html:not([data-theme="dark"]) body #skills-title {
   color: #000000 !important;
 }
 
 /* Skills Section Specific Headings (light mode) - Maximum specificity */
-html body:not([data-theme="dark"]) #skills h3,
-html body:not([data-theme="dark"]) section#skills h3,
-html body:not([data-theme="dark"]) .technical-skills h3,
-html body:not([data-theme="dark"]) .production-mindset h3,
-html body:not([data-theme="dark"]) #skills .technical-skills h3,
-html body:not([data-theme="dark"]) #skills .production-mindset h3 {
+html:not([data-theme="dark"]) body #skills h3,
+html:not([data-theme="dark"]) body section#skills h3,
+html:not([data-theme="dark"]) body .technical-skills h3,
+html:not([data-theme="dark"]) body .production-mindset h3,
+html:not([data-theme="dark"]) body #skills .technical-skills h3,
+html:not([data-theme="dark"]) body #skills .production-mindset h3 {
   color: #000000 !important;
 }
 
 /* Skill Category Headings (light mode) - Maximum specificity */
-html body:not([data-theme="dark"]) .skill-category h4,
-html body:not([data-theme="dark"]) #skills .skill-category h4,
-html body:not([data-theme="dark"]) .technical-skills .skill-category h4 {
+html:not([data-theme="dark"]) body .skill-category h4,
+html:not([data-theme="dark"]) body #skills .skill-category h4,
+html:not([data-theme="dark"]) body .technical-skills .skill-category h4 {
   color: #000000 !important;
 }
 
 /* Education Section Headings - Professional Certifications and Continuous Learning (light mode) - Maximum specificity */
-html body:not([data-theme="dark"]) #education h3[style*="color:#0f172a"],
-html body:not([data-theme="dark"]) section#education h3[style*="color:#0f172a"] {
+html:not([data-theme="dark"]) body #education h3[style*="color:#0f172a"],
+html:not([data-theme="dark"]) body section#education h3[style*="color:#0f172a"] {
   color: #000000 !important;
 }
 
 /* Education Continuous Learning List and Text (light mode) - Maximum specificity */
-html body:not([data-theme="dark"]) #education ul[style*="color:#475569"] li,
-html body:not([data-theme="dark"]) #education p[style*="color:#64748b"],
-html body:not([data-theme="dark"]) section#education ul[style*="color:#475569"] li,
-html body:not([data-theme="dark"]) section#education p[style*="color:#64748b"] {
+html:not([data-theme="dark"]) body #education ul[style*="color:#475569"] li,
+html:not([data-theme="dark"]) body #education p[style*="color:#64748b"],
+html:not([data-theme="dark"]) body section#education ul[style*="color:#475569"] li,
+html:not([data-theme="dark"]) body section#education p[style*="color:#64748b"] {
   color: #000000 !important;
 }
 
 /* Footer Copyright (light mode) - Maximum specificity */
-html body:not([data-theme="dark"]) .site-footer .footer-bottom,
-html body:not([data-theme="dark"]) .site-footer .footer-bottom-content,
-html body:not([data-theme="dark"]) .site-footer .footer-bottom-content div:first-child,
-html body:not([data-theme="dark"]) .site-footer .footer-bottom-content div:first-child span,
-html body:not([data-theme="dark"]) footer.site-footer .footer-bottom-content div {
+html:not([data-theme="dark"]) body .site-footer .footer-bottom,
+html:not([data-theme="dark"]) body .site-footer .footer-bottom-content,
+html:not([data-theme="dark"]) body .site-footer .footer-bottom-content div:first-child,
+html:not([data-theme="dark"]) body .site-footer .footer-bottom-content div:first-child span,
+html:not([data-theme="dark"]) body footer.site-footer .footer-bottom-content div {
   color: #000000 !important;
 }
 
 /* Services CTA Text - Ready For and Let's build (light mode) - Maximum specificity */
-html body:not([data-theme="dark"]) .services-cta p,
-html body:not([data-theme="dark"]) .services-cta p strong,
-html body:not([data-theme="dark"]) #services .services-cta p,
-html body:not([data-theme="dark"]) #services .services-cta p strong {
+html:not([data-theme="dark"]) body .services-cta p,
+html:not([data-theme="dark"]) body .services-cta p strong,
+html:not([data-theme="dark"]) body #services .services-cta p,
+html:not([data-theme="dark"]) body #services .services-cta p strong {
   color: #000000 !important;
 }
 
 /* Proven Through Real Impact heading - Make black */
-html body:not([data-theme="dark"]) .proven-impact h4,
-html body:not([data-theme="dark"]) .production-mindset .proven-impact h4,
-html body:not([data-theme="dark"]) #skills .proven-impact h4 {
+html:not([data-theme="dark"]) body .proven-impact h4,
+html:not([data-theme="dark"]) body .production-mindset .proven-impact h4,
+html:not([data-theme="dark"]) body #skills .proven-impact h4 {
   color: #000000 !important;
 }
 
 /* About Section - Light mode: black text, Dark mode: white headings and semi-transparent content */
-html body:not([data-theme="dark"]) .about-text p,
-html body:not([data-theme="dark"]) #about .about-text p,
-html body:not([data-theme="dark"]) .about-text p strong,
-html body:not([data-theme="dark"]) #about .about-text p strong {
+html:not([data-theme="dark"]) body .about-text p,
+html:not([data-theme="dark"]) body #about .about-text p,
+html:not([data-theme="dark"]) body .about-text p strong,
+html:not([data-theme="dark"]) body #about .about-text p strong {
   color: #000000 !important;
 }
 
@@ -4793,20 +4793,20 @@ html[data-theme="dark"] .contact-card span:not(.icon) {
 }
 
 /* Keep specific elements in blue */
-html body:not([data-theme="dark"]) .stat-value,
-html body:not([data-theme="dark"]) .stat-label,
-html body:not([data-theme="dark"]) .exp-title,
-html body:not([data-theme="dark"]) .exp-company,
-html body:not([data-theme="dark"]) .exp-meta,
-html body:not([data-theme="dark"]) .exp-date,
-html body:not([data-theme="dark"]) .exp-location,
-html body:not([data-theme="dark"]) .footer-section h3,
-html body:not([data-theme="dark"]) .footer-brand,
-html body:not([data-theme="dark"]) .footer-links a,
-html body:not([data-theme="dark"]) .site-footer a,
-html body:not([data-theme="dark"]) .footer-location,
-html body:not([data-theme="dark"]) #education h3:first-of-type + p,
-html body:not([data-theme="dark"]) #education p[style*="color:#64748b"] {
+html:not([data-theme="dark"]) body .stat-value,
+html:not([data-theme="dark"]) body .stat-label,
+html:not([data-theme="dark"]) body .exp-title,
+html:not([data-theme="dark"]) body .exp-company,
+html:not([data-theme="dark"]) body .exp-meta,
+html:not([data-theme="dark"]) body .exp-date,
+html:not([data-theme="dark"]) body .exp-location,
+html:not([data-theme="dark"]) body .footer-section h3,
+html:not([data-theme="dark"]) body .footer-brand,
+html:not([data-theme="dark"]) body .footer-links a,
+html:not([data-theme="dark"]) body .site-footer a,
+html:not([data-theme="dark"]) body .footer-location,
+html:not([data-theme="dark"]) body #education h3:first-of-type + p,
+html:not([data-theme="dark"]) body #education p[style*="color:#64748b"] {
   color: #007bff !important;
 }
 
@@ -4842,21 +4842,21 @@ html[data-theme="dark"] .project-tagline {
   color: #60a5fa !important;
 }
 
-html body:not([data-theme="dark"]) .proven-impact strong,
-html body:not([data-theme="dark"]) .proven-impact li strong,
-html body:not([data-theme="dark"]) .contact-card-value,
-html body:not([data-theme="dark"]) .contact-card-value a,
-html body:not([data-theme="dark"]) .filter-btn,
-html body:not([data-theme="dark"]) .filter-btn.active,
-html body:not([data-theme="dark"]) .production-mindset h3,
-html body:not([data-theme="dark"]) .achievement-metric,
-html body:not([data-theme="dark"]) .edu-skills-label,
-html body:not([data-theme="dark"]) #education p[style*="color:#64748b"] strong {
+html:not([data-theme="dark"]) body .proven-impact strong,
+html:not([data-theme="dark"]) body .proven-impact li strong,
+html:not([data-theme="dark"]) body .contact-card-value,
+html:not([data-theme="dark"]) body .contact-card-value a,
+html:not([data-theme="dark"]) body .filter-btn,
+html:not([data-theme="dark"]) body .filter-btn.active,
+html:not([data-theme="dark"]) body .production-mindset h3,
+html:not([data-theme="dark"]) body .achievement-metric,
+html:not([data-theme="dark"]) body .edu-skills-label,
+html:not([data-theme="dark"]) body #education p[style*="color:#64748b"] strong {
   color: #007bff !important;
 }
 
 /* Project taglines - Light blue */
-html body:not([data-theme="dark"]) .project-tagline {
+html:not([data-theme="dark"]) body .project-tagline {
   color: #60a5fa !important;
 }
 
@@ -4887,10 +4887,10 @@ html[data-theme="dark"] body #education p strong {
 }
 
 /* Keep specific text elements in black */
-html body:not([data-theme="dark"]) .projects-intro,
-html body:not([data-theme="dark"]) .skill-category p,
-html body:not([data-theme="dark"]) .proven-impact p,
-html body:not([data-theme="dark"]) .proven-impact li {
+html:not([data-theme="dark"]) body .projects-intro,
+html:not([data-theme="dark"]) body .skill-category p,
+html:not([data-theme="dark"]) body .proven-impact p,
+html:not([data-theme="dark"]) body .proven-impact li {
   color: #000000 !important;
 }
 
@@ -4914,8 +4914,8 @@ html[data-theme="dark"] body #about .about-text p strong {
 }
 
 /* Skills intro text - Keep black in both modes */
-html body:not([data-theme="dark"]) .skills-intro,
-html body:not([data-theme="dark"]) #skills .skills-intro {
+html:not([data-theme="dark"]) body .skills-intro,
+html:not([data-theme="dark"]) body #skills .skills-intro {
   color: #000000 !important;
 }
 
@@ -4996,18 +4996,18 @@ html[data-theme="dark"] body .contact-info .contact-card:nth-child(4) .contact-c
 }
 
 /* Contact card links - Blue for specific links in light mode */
-html body:not([data-theme="dark"]) .contact-card-value a[href*="linkedin.com"],
-html body:not([data-theme="dark"]) .contact-card-value a[href*="github.com/bibhu342"],
-html body:not([data-theme="dark"]) .contact-info .contact-card:nth-child(3) .contact-card-value a,
-html body:not([data-theme="dark"]) .contact-info .contact-card:nth-child(4) .contact-card-value a {
+html:not([data-theme="dark"]) body .contact-card-value a[href*="linkedin.com"],
+html:not([data-theme="dark"]) body .contact-card-value a[href*="github.com/bibhu342"],
+html:not([data-theme="dark"]) body .contact-info .contact-card:nth-child(3) .contact-card-value a,
+html:not([data-theme="dark"]) body .contact-info .contact-card:nth-child(4) .contact-card-value a {
   color: #007bff !important;
 }
 
 /* Preferred Contact section - Email and Phone links - Blue in light mode */
-html body:not([data-theme="dark"]) #contact a[href="mailto:bibhu342@gmail.com"],
-html body:not([data-theme="dark"]) #contact a[href*="mailto:bibhu342@gmail.com"],
-html body:not([data-theme="dark"]) #contact a[href="tel:+917022403111"],
-html body:not([data-theme="dark"]) #contact a[href*="tel:+917022403111"] {
+html:not([data-theme="dark"]) body #contact a[href="mailto:bibhu342@gmail.com"],
+html:not([data-theme="dark"]) body #contact a[href*="mailto:bibhu342@gmail.com"],
+html:not([data-theme="dark"]) body #contact a[href="tel:+917022403111"],
+html:not([data-theme="dark"]) body #contact a[href*="tel:+917022403111"] {
   color: #007bff !important;
 }
 
