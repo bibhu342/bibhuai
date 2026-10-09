@@ -1,0 +1,47 @@
+/* Case Study section (AI image ranking sample) */
+.cs-label{display:inline-block;font-size:.8rem;font-weight:600;padding:2px 10px;border-radius:999px;border:1px solid #94a3b8;color:#334155;margin-bottom:12px}
+.cs-prompt{background:#f8fafc;border-left:4px solid #1d4ed8;border-radius:6px;padding:14px 18px;margin:0 0 20px}
+.cs-prompt-label{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:#475569;margin:0 0 6px;font-weight:600}
+.cs-prompt blockquote{margin:0;font-size:1.05rem;line-height:1.6;color:#0f172a}
+.cs-meta{margin:8px 0 0;font-size:.85rem;color:#475569}
+.cs-images{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:0 0 24px}
+.cs-images figure{margin:0}
+.cs-images img{width:100%;height:auto;display:block;border:1px solid #cbd5e1;border-radius:8px}
+.cs-images figcaption{display:flex;justify-content:space-between;align-items:center;gap:8px;font-weight:700;margin-bottom:8px;color:#0f172a}
+.cs-score{font-variant-numeric:tabular-nums}
+.cs-win{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:#166534;color:#fff;padding:2px 8px;border-radius:4px;margin-left:8px}
+.cs-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:24px;margin:0 0 24px}
+.cs-grid h3{margin:0 0 10px;font-size:1rem;text-transform:uppercase;letter-spacing:.06em}
+.cs-table{width:100%;border-collapse:collapse;font-size:.92rem}
+.cs-table th,.cs-table td{padding:7px 8px;border-bottom:1px solid #e2e8f0;text-align:left;vertical-align:top;color:#1e293b}
+.cs-table th{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:#475569;border-bottom:2px solid #334155}
+.cs-table td.n,.cs-table th.n{text-align:center;width:3.2em;font-variant-numeric:tabular-nums}
+.cs-table tr.total td{font-weight:700;border-top:2px solid #334155;border-bottom:0}
+.cs-table td.flag{color:#b91c1c;font-weight:700;white-space:nowrap;width:3em}
+.cs-scale{font-size:.82rem;color:#475569;margin:8px 0 0}
+.cs-verdict{border:2px solid #166534;background:#f0fdf4;border-radius:8px;padding:16px 20px;margin:0 0 24px}
+.cs-verdict h3{margin:0 0 8px;color:#166534;font-size:1rem;text-transform:uppercase;letter-spacing:.06em}
+.cs-verdict p{margin:0;line-height:1.65;color:#14532d}
+.cs-method{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.cs-method article{border:1px solid #e2e8f0;border-radius:8px;padding:16px 18px}
+.cs-method h3{margin:0 0 8px;font-size:1.05rem}
+.cs-method p{margin:0 0 10px;line-height:1.65}
+.cs-method p:last-child{margin-bottom:0}
+.cs-actions{margin:20px 0 0;display:flex;flex-wrap:wrap;gap:12px}
+@media (max-width:760px){.cs-images,.cs-grid,.cs-method{grid-template-columns:1fr}}
+html[data-theme=dark] .cs-prompt{background:#1e293b;border-left-color:#60a5fa}
+html[data-theme=dark] body#page main#main-content .cs-prompt blockquote{color:#f1f5f9!important}
+html[data-theme=dark] body#page main#main-content .cs-prompt-label,html[data-theme=dark] body#page main#main-content .cs-meta,html[data-theme=dark] body#page main#main-content .cs-scale{color:#cbd5e1!important}
+html[data-theme=dark] .cs-label{color:#e2e8f0;border-color:#64748b}
+html[data-theme=dark] .cs-images img{border-color:#475569}
+html[data-theme=dark] .cs-images figcaption,html[data-theme=dark] .cs-table td{color:#e2e8f0}
+html[data-theme=dark] .cs-table th{color:#cbd5e1;border-bottom-color:#94a3b8}
+html[data-theme=dark] .cs-table td{border-bottom-color:#334155}
+html[data-theme=dark] .cs-table tr.total td{border-top-color:#94a3b8}
+html[data-theme=dark] .cs-table td.flag{color:#f87171}
+html[data-theme=dark] .cs-verdict{background:#052e16;border-color:#4ade80}
+html[data-theme=dark] body#page main#main-content .cs-verdict h3{color:#4ade80!important}
+html[data-theme=dark] body#page main#main-content .cs-verdict p{color:#dcfce7!important}
+html[data-theme=dark] .cs-method article{border-color:#334155}
+body#page main#main-content .cs-win{color:#fff!important}
+body#page main#main-content .cs-actions .btn-primary,html[data-theme=dark] body#page main#main-content .cs-actions .btn-primary{background:#1d4ed8!important;border-color:#1d4ed8!important;color:#fff!important}
