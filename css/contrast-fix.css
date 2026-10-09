@@ -947,3 +947,5 @@ html body:not([data-theme="dark"]) #contact a[href*="tel:+917022403111"] {
 [data-theme="dark"] .site-footer .footer-bottom-content div span {
   color: #000000 !important;
 }
+
+html[data-theme=dark] .timeline-card p a,html[data-theme=dark] .projects-intro a,html[data-theme=dark] .service-desc a{color:#60a5fa!important}

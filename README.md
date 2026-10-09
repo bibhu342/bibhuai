@@ -5,7 +5,7 @@
 [![Lighthouse](https://img.shields.io/badge/Lighthouse-100%2F100-brightgreen?logo=lighthouse)](https://github.com/bibhu342/bibhuai/actions)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Professional portfolio showcasing data automation projects, Python engineering solutions, and CSV processing tools.
+Portfolio of Bibhudendu Behera, multimodal AI evaluation and LLM quality specialist (Six Sigma Black Belt) and founder of VividFlow Studio.
 
 ## 🌟 Features
 
