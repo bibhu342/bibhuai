@@ -19,3 +19,5 @@ body#page .btn-submit .btn-text,html[data-theme=dark] body#page .btn-submit .btn
 html[data-theme=dark] body#page main#main-content .proven-impact{background:#1e293b!important;border-color:#334155!important}
 html[data-theme=dark] body#page footer#footer div,html[data-theme=dark] body#page footer#footer span,html[data-theme=dark] body#page footer#footer p{color:#cbd5e1!important}
 body#page main#main-content .filter-btn.active,html[data-theme=dark] body#page main#main-content .filter-btn.active,html:not([data-theme=dark]) body#page main#main-content .filter-btn.active{color:#fff!important}
+.nav-links a{white-space:nowrap}
+body#page #cookie-consent .cookie-content p{color:#e2e8f0!important}

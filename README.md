@@ -13,7 +13,7 @@ Portfolio of Bibhudendu Behera, multimodal AI evaluation and LLM quality special
 
 - Experience: VividFlow Studio, freelance AI evaluation (Upwork), Innodata (Analyst – AI/LLM), IntouchCX, Tapzo
 - Skills: generated image/video evaluation, RLHF preference ranking, audio and speech, vision and video annotation, text and reasoning checks
-- Projects: CSV-Cleaner-Pro, PDF-Parser-Pro, Web-Extractor-Pro, plus links to evaluation samples and the VividFlow Studio portfolio
+- Projects: Groundtruth (AI label-quality concept), CSV-Cleaner-Pro, PDF-Parser-Pro, Web-Extractor-Pro, and VividFlow Studio work (Kestrel Freight, Halden Solar, LumaSkin, TACET One, PRIMEUR)
 - Certifications, contact form (Formspree) and downloadable resume
 
 ## Tech
