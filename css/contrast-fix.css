@@ -970,3 +970,5 @@ html[data-theme=dark] body#page footer#footer div,html[data-theme=dark] body#pag
 body#page main#main-content .filter-btn.active,html[data-theme=dark] body#page main#main-content .filter-btn.active,html:not([data-theme=dark]) body#page main#main-content .filter-btn.active{color:#fff!important}
 .nav-links a{white-space:nowrap}
 body#page #cookie-consent .cookie-content p{color:#e2e8f0!important}
+@media (min-width:769px) and (max-width:1240px){body#page .nav-links{gap:.15rem}body#page .nav-links a{font-size:.88rem;padding-left:.45rem;padding-right:.45rem}body#page .nav-container{padding-left:16px;padding-right:16px}}
+@media (min-width:769px) and (max-width:1000px){body#page .nav-container{flex-wrap:wrap;row-gap:4px}body#page .nav-links{flex-wrap:wrap;justify-content:center;width:100%}}
