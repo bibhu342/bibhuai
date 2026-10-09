@@ -103,14 +103,12 @@ lighthouse http://localhost:8000 --view
 ```
 bibhu-portfolio/
 ├── assets/           # Images, favicons, resume
-├── data/            # JSON data files
 ├── scripts/         # Build and utility scripts
 ├── .github/         # GitHub workflows and config
 ├── index.html       # Main portfolio page
-├── manifest.webmanifest  # PWA configuration
+├── site.webmanifest # PWA configuration
 ├── robots.txt       # Search engine directives
-├── sitemap.xml      # SEO sitemap
-└── feed.xml         # RSS feed
+└── sitemap.xml      # SEO sitemap
 ```
 
 ## 🎨 Design Guidelines
@@ -130,9 +128,9 @@ bibhu-portfolio/
 ## 🔧 Common Tasks
 
 ### Adding a New Project
-1. Update `data/projects.json`
-2. Run `python scripts/generate_sitemap_and_rss.py`
-3. Test dynamic loading on local server
+1. Add a `project-card` article to the Projects section in `index.html`
+2. Add a 800×450 image (PNG + WebP) to `assets/images/projects/`
+3. Test locally with `python3 -m http.server`
 4. Commit changes
 
 ### Updating Assets

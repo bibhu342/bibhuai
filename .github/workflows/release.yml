@@ -90,12 +90,13 @@ jobs:
         cp index.html release-build/
         cp privacy.html release-build/
         cp terms.html release-build/ 
-        cp manifest.webmanifest release-build/
+        cp 404.html release-build/
+        cp site.webmanifest release-build/
         cp robots.txt release-build/
         cp sitemap.xml release-build/
-        cp feed.xml release-build/
+        cp styles.min.css script.min.js release-build/
         cp -r assets/ release-build/
-        cp -r data/ release-build/
+        cp -r css/ release-build/
         
         # Create version info
         cat > release-build/version.json << EOF
