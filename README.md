@@ -28,7 +28,7 @@ Portfolio of Bibhudendu Behera, multimodal AI evaluation and LLM quality special
 - Content lives in `index.html`. The `Minify HTML` workflow minifies HTML on every push to `main`, so edit the readable version and let CI minify it.
 - Styles: `styles.css` with its minified copy `styles.min.css` (the page loads the `.min` file, so update both), then `css/contrast-fix.css` / `.min.css`, which load last.
 - Resume: replace `assets/Bibhudendu_Behera_Resume.pdf`.
-- Social preview image: `assets/images/og-image.png` (1200×630).
+- Social preview image: `assets/images/og-image-2026.png` (1200×630).
 
 Run locally:
 
